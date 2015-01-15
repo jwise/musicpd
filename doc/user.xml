@@ -1518,7 +1518,10 @@ buffer_size: 16384</programlisting>
                 </entry>
                 <entry>
                   The host name of the "master"
-                  <application>MPD</application> instance.
+                  <application>MPD</application> instance, in standard
+                  <filename>libmpdclient</filename> syntax (that is to say,
+                  passwords can be prepended as
+                  <filename>password@host</filename>).
                 </entry>
               </row>
               <row>
